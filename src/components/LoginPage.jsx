@@ -34,7 +34,7 @@ const LoginPage = () => {
             );
             console.log(response.token);
             setToken(response.token);
-            console.log("Token:-> ",JSON.stringify(response.token))
+            // console.log("Token:-> ",JSON.stringify(response.token))
             localStorage.setItem("JWT_TOKEN", JSON.stringify(response.token));
             toast.success("Login Successful!");
             reset();

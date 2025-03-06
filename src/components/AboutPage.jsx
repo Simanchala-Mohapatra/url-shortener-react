@@ -1,7 +1,10 @@
 import React from "react";
 import { FaLink, FaShareAlt, FaEdit, FaChartLine } from "react-icons/fa";
+import DeveloperDetails from "./DeveloperDetails";
 const AboutPage = () => {
   return (
+    <>
+    <DeveloperDetails/>
     <div className="lg:px-14 sm:px-8 px-5 min-h-[calc(100vh-64px)] pt-2">
       <div className="bg-white w-full sm:py-10 py-8  ">
         <h1 className="sm:text-4xl text-slate-800 text-3xl font-bold italic  mb-3">
@@ -72,6 +75,7 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
